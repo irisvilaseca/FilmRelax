@@ -1,0 +1,20 @@
+/*VERSIÓN DE ESCRITORIO*/
+@media (min-width:1024px){
+    body{
+        background: red;
+    }
+}
+
+/*VERSIÓN DE TABLETA*/
+@media (max-width:1023px){
+    body{
+        background: green;
+    }
+}
+
+/*VERSIÓN DE MÓVIL*/
+@media (max-width:450px){
+    body{
+        background: blue;
+    }    
+}
