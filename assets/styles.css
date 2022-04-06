@@ -1,0 +1,14 @@
+body {
+    background-color: #EDECFE;
+    font-family: Leckerli One;
+}
+
+#nav {
+    background-color: #FFFDDE;
+}
+
+#nav .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+
