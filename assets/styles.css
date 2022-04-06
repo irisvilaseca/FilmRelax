@@ -1,6 +1,7 @@
 body {
     background-color: #EDECFE;
     font-family: Leckerli One;
+    padding-top: 70px;
 }
 
 #nav {
@@ -11,4 +12,7 @@ body {
     color: black;
     font-size: 1.5rem;
 }
-
+.navbar-nav{
+  background-color: #8AECCF;
+  margin:-1px;
+}

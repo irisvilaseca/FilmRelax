@@ -19,6 +19,10 @@
         <img src="/images/android-chrome-192x192.png" alt="" width="60" height="48" class="d-inline-block align-text-top">
         FilmRelax
       </a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
+      </form>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,14 +53,26 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </div>
   </nav>
+  <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <a class="navbar-brand d-md-none" href="#">Brand</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-md-flex d-block w-100">
+        <div class="collapse navbar-collapse mx-auto w-auto justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav w-100 justify-content-center">
+                <a class="navbar-brand mx-2 d-none d-md-inline" href="#">Terror <span class="sr-only"></span></a>
+                <a class="navbar-brand mx-2 d-none d-md-inline" href="#">Comedia</a>
+                <a class="navbar-brand mx-2 d-none d-md-inline" href="#">Acción</a>
+                <a class="navbar-brand mx-2 d-none d-md-inline" href="#">Infantil</a>
+            </div>
+        </div>
+    </div>
+</nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
