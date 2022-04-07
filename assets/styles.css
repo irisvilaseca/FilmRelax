@@ -19,3 +19,15 @@ body {
 #album{
   background-color: #EDECFE;
 }
+#genres-navbar{
+  padding-top: 1em;
+}
+#search-btn{
+  color:#8AECCF;
+  border: 1px solid #8AECCF;;
+}
+#search-btn:hover{
+  background-color: #F88BB4ff;
+  color:#FF4981ff;
+  border: 1px solid #FF4981ff;
+}
