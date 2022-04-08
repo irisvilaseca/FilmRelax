@@ -1,33 +1,38 @@
 body {
-    background-color: #EDECFE;
-    font-family: Leckerli One;
-    padding-top: 70px;
+  background-color: #EDECFE;
+  font-family: Leckerli One;
+  padding-top: 70px;
 }
 
 #nav {
-    background-color: #FFFDDE;
+  background-color: #FFFDDE;
 }
 
 #nav .navbar-brand {
-    color: black;
-    font-size: 1.5rem;
+  color: black;
+  font-size: 1.5rem;
 }
-.navbar-nav{
+
+.navbar-nav {
   background-color: #8AECCF;
-  margin:-1px;
+  margin: -1px;
 }
-#album{
+
+#album {
   background-color: #EDECFE;
 }
-#genres-navbar{
+
+#genres-navbar {
   padding-top: 1em;
 }
-#search-btn{
-  color:#8AECCF;
-  border: 1px solid #8AECCF;;
+
+#search-btn {
+  color: #8AECCF;
+  border: 1px solid #8AECCF;
 }
-#search-btn:hover{
+
+#search-btn:hover {
   background-color: #F88BB4ff;
-  color:#FF4981ff;
+  color: #FF4981ff;
   border: 1px solid #FF4981ff;
 }
