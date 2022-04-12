@@ -11,7 +11,7 @@ Workers and family members in need of day-to-day relaxation
 # Functionalities :floppy_disk:
 
 - See all the movies in the Frontend
-
+![Screenshot](logo.PNG)
 
 # Tools :computer:
 
