@@ -1,6 +1,6 @@
 # FilmRelax :movie_camera:
 We have a REST API and our Stackholder wants a website with movies to relax, 
-it will be used by his workers and family and it will be called FilmRelax."
+it will be used by his workers and family and it will be called FilmRelax.
 =======
 # FilmCity Relax 🍿
 
