@@ -46,6 +46,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.card{
+  width:18rem;
+}
 
 .img-fluid {
   width: 300px;
