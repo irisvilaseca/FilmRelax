@@ -25,11 +25,14 @@ Color Palette
 
 - Git / Github
 - Trello
+- Figma
 - IntelliJ IDEA
+- Bootstrap
 - Spring Boot
 - Java 
 - JSON
 - Visual Code Studio
+- Javascript
 
 # Authors ✒️
 - Iris Vilaseca Sáenz de Santamaría - https://github.com/irisvilaseca
