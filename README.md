@@ -7,13 +7,15 @@ it will be used by his workers and family and it will be called FilmRelax."
 People who want to disconnect and relax watching videos and movies.
 Workers and family members in need of day-to-day relaxation
 
+![Screenshot](paleta.PNG)
+
 =======
 # Functionalities :floppy_disk:
 ![Screenshot](Favicon.PNG)
 
 - See all the movies in the Frontend
 
-# ScreenShoots :computer:
+# ScreenShoots :vhs:
 
 ![Screenshot](header.PNG)
 
