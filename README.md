@@ -7,6 +7,8 @@ it will be used by his workers and family and it will be called FilmRelax.
 People who want to disconnect and relax watching videos and movies.
 Workers and family members in need of day-to-day relaxation
 
+Color Palette
+
 ![Screenshot](paleta.PNG)
 
 =======
