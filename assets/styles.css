@@ -4,6 +4,7 @@ body {
   padding-top: 70px;
 }
 
+
 #nav {
   background-color: #FFFDDE;
 }
@@ -36,3 +37,19 @@ body {
   color: #FF4981ff;
   border: 1px solid #FF4981ff;
 }
+
+
+
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 300px;
+}
+
+
+
