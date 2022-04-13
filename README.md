@@ -1,11 +1,13 @@
 # FilmRelax :movie_camera:
 We have a REST API and our Stackholder wants a website with movies to relax, 
-it will be used by his workers and family and it will be called FilmRelax."
+it will be used by his workers and family and it will be called FilmRelax.
 =======
 # FilmCity Relax 🍿
 
 People who want to disconnect and relax watching videos and movies.
 Workers and family members in need of day-to-day relaxation
+
+Color Palette
 
 ![Screenshot](paleta.PNG)
 
@@ -23,11 +25,14 @@ Workers and family members in need of day-to-day relaxation
 
 - Git / Github
 - Trello
+- Figma
 - IntelliJ IDEA
+- Bootstrap
 - Spring Boot
 - Java 
 - JSON
 - Visual Code Studio
+- Javascript
 
 # Authors ✒️
 - Iris Vilaseca Sáenz de Santamaría - https://github.com/irisvilaseca
