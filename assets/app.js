@@ -41,7 +41,7 @@ function printMovies(data) {
         ulElement.innerHTML += synopsisHtml;
     });
 }
-addMovie();
+//addMovie();
 
 function addMovie() {
     let newMovie= {
