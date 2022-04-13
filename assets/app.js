@@ -1,7 +1,7 @@
 getMovies();
 
 function getMovies() {
-    fetch("http://localhost:8090/movies")
+    fetch("http://localhost:8080/movies")
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -41,20 +41,20 @@ function printMovies(data) {
         ulElement.innerHTML += synopsisHtml;
     });
 }
-//addMovie();
+addMovie( document.getElementById("btn-formulario").addEventListener("click", addMovie));
 
 function addMovie() {
     let newMovie= {
-        title: "Jurassic Pig",
-        coverImage: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
-        director: "Steven Spielberg",
-        year: 1993,
-        synopsis: "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA.",
+        title: "Amor en Chipiona",
+        coverImage: "http://www.turismodechipiona.com/wp-content/uploads/2018/05/faro-2.jpg",
+        director: "Francisco Dominguez",
+        year: 2022,
+        synopsis: "Una chica pacense se enamora de su entrenador personal, su arhienemiga Celia le pondra muchos obstaculos, pero sus amigos Fran Er servillano y Jesus El gallegiño le ayudaran",
         renter: null,
         booked: false,
         score: 0
     }
-    fetch('http://localhost:8090/movies', {
+    fetch('http://localhost:8080/movies', {
             method: "POST",
             body: JSON.stringify(newMovie),
             headers: {
