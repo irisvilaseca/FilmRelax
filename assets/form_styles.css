@@ -40,9 +40,14 @@ body {
 form{
     width:30%;
     text-align: center;
-
+    margin:auto;
 }
 #btn-formulario{
     background-color: #FF4981ff;
     border: rgb(249, 48, 108);
+}
+#btn-formulario:hover{
+    background-color: #F88BB4ff;
+    color: #FF4981ff;
+    border: 1px solid #FF4981ff;
 }
