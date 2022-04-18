@@ -21,6 +21,8 @@ Color Palette
 
 ![Screenshot](header.PNG)
 
+![Screenshot](films.png)
+
 # Tools :computer:
 
 - Git / Github
