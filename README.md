@@ -21,6 +21,8 @@ Color Palette
 
 ![Screenshot](header.PNG)
 
+![Screenshot](burger.PNG)
+
 ![Screenshot](films.png)
 
 # Tools :computer:
