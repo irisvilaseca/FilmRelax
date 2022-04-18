@@ -1,7 +1,7 @@
 getMovies();
 
 function getMovies() {
-    fetch("http://localhost:8080/movies")
+    fetch("http://localhost:8090/movies")
         .then(response => response.json())
         .then(data => {
             console.log(data);
@@ -41,7 +41,7 @@ function printMovies(data) {
         ulElement.innerHTML += synopsisHtml;
     });
 }
-addMovie( document.getElementById("btn-formulario").addEventListener("click", addMovie));
+addMovie( document.getElementById("btn-formulario").addEventListener("click",addMovie));
 
 function addMovie() {
     let newMovie= {
@@ -54,7 +54,7 @@ function addMovie() {
         booked: false,
         score: 0
     }
-    fetch('http://localhost:8080/movies', {
+    fetch('http://localhost:8090/movies', {
             method: "POST",
             body: JSON.stringify(newMovie),
             headers: {
